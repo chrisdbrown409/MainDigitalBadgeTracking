@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-US" dir="ltr">
+
 <head>
-  <Title> "Digital Badges" </Title>
+	<meta charset="utf-8">
+	<meta name="viewport" 		content="width=device-width, initial-scale=1.0">
+	<meta name="description" 	content="Chris Brown | Quality Assurance"> <!---Web Searches--->
+	<Title>Chris Brown | Digital Badges</Title>
 
-
-<!---Ref: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible--->
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
  	background-color: #545c57;
 	height: 10%; /*reactive*/
-	margin-left: 40px;
+	/*margin-left: 14%; controlled by main class*/
   	color: white;
   	cursor: pointer;
   	/*padding: 18px; /*non-reactive*/
@@ -29,7 +30,7 @@
 
 .collapsible:after {
   	content: '\002B'; /* Unicode character for "plus" sign (+) */
-  	margin-left: 40px;
+  	/*margin-left: 14%; controlled by main class*/
 	color: white;
   	font-weight: bold;
   	float: Right;
@@ -45,7 +46,7 @@
 .content {
   	padding: 0 18px;
 	width: 80%; 
-  	margin-left: 40px;
+  	/*margin-left: 14%; controlled by main class*/
  	max-height: 0;
   	overflow: hidden;
   	transition: max-height 0.2s ease-out;
@@ -94,20 +95,15 @@ body, html {
   	width: 12%; /*repsonsive:*15*/
 	top: 32%;
 	left: 1%;
-	/*width: 130px;*/
-	/*top: 220px;*
-  	/*left: 10px;*/
   	background: White;
   	overflow-x: hidden;
   	padding: 0px 0;
 	font-family: times,serif;
-	/*font-family: Arial, sans-serif;*/
 	font-size: 12px;
 }
 
 .sidenav a {
-  	/*padding: 0px 8px 6px 16px; /*top,right,bottom, left */
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+  	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
@@ -123,9 +119,11 @@ body, html {
 
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
-	margin-left: 11%; /* Same width as the sidebar + left position in px */ /*reponsive*/
-  	/*font-size: 28px; /* Increased text to enable scrolling */
-  	padding: 0px 10px;
+	padding: 0px 10px;
+	font-style:normal;
+	/*margin-left: 40px;*/
+	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	font-family: times,serif;
 }
 
 @media screen and (max-height: 450px) {
@@ -135,7 +133,7 @@ body, html {
  footer {
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 40px;*/
-	margin-left: 4%; /*reponsive*/
+	/*margin-left: 4%; controlled by main class*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
@@ -156,23 +154,19 @@ body, html {
 
 <div class="hero-image">
   <div class="hero-text">
-    <h3 style="font-size:25px">Digital Badge Tracking Platforms</h3>
-    <!---
-    <button>Hire me</button>
-    --->
+    <h1 style="font-size:25px">Digital Badge</h1>
   </div>
 </div>
 <HR>
 
-  <div class="sidenav">
-	<p style="font-family: times, serif; font-size:12pt; text-align: left; font-style:normal"> <U>Links</U></P><br />
-    	<a href="https://chrisdbrown409.github.io/MainPage/">  Home</a><br />
-    	<a href="https://github.com/chrisdbrown409" >  GIT Hub Root</a><br />
-    	<a href="https://github.com/chrisdbrown409/MainDigitalBadgeTracking/blob/main/index.html" >  GIT Hub Repository</a><br />
-    	<a href = mailto:chrisdbrown409@gmail.com>  Email Author</a><br />
-    	<a href="https://www.linkedin.com/in/chrisbrown72/">  Author's Profile</a><br />
-	<!--- LinkedIn Profile: <a href="https://www.linkedin.com/in/chrisbrown72/" target="_blank">https://www.linkedin.com/in/chrisbrown72/</a><br /> --->
-      </div>
+<div class="sidenav">
+		<p style="font-size:12pt;"><U>Links</U></P>
+    		<a href="https://chrisdbrown409.github.io/MainPage/">  Home</a><br />
+    		<a href="https://github.com/chrisdbrown409" >  GIT Hub Root</a><br />
+    		<a href="https://github.com/chrisdbrown409/MainDigitalBadgeTracking/blob/main/index.html" >  GIT Hub Repository</a><br />
+    		<a href = mailto:chrisdbrown409@gmail.com>  Email Author</a><br />
+    		<a href="https://www.linkedin.com/in/chrisbrown72/">  Author's Profile</a><br />
+	</div>
  
   
   
@@ -180,14 +174,12 @@ body, html {
 
 
 <div class="main">
-<div>
-	<h1 style="font-size:14pt; font-style:normal;margin-left: 40px;">Digital Badge Tracking Platforms</h1>
-	
-	<p style="font-family: times,serif; font-size:12pt; font-style:normal;margin-left: 40px;">
-	Digital badges have somewhat taken off in the last decade. Digitial badges can be earned by taking courses or passing tests.  Badges can be saved to many locations like a LinkedIn profile or added to an email signature line.  Also, many companies prefer candidates that have certifications.  Therefore, tracking badges have become just as important as earning them. Therefore, applicaitons are being built for that purpose.<br />
-	<br />
-	Each section expands and explores the topics within the section.</p>
-</div>
+	<div>
+		<h2 style="font-size:14pt;">Digital Badge Tracking Platforms</h2>
+		Digital badges have somewhat taken off in the last decade. Digitial badges can be earned by taking courses or passing tests.  Badges can be saved to many locations like a LinkedIn profile or added to an email signature line.  Also, many companies prefer candidates that have certifications.  Therefore, tracking badges have become just as important as earning them. Therefore, applicaitons are being built for that purpose.<br />
+		<br />
+		Each section expands and explores the topics within the section.</p>
+	</div>
 	
 		
 <button class="collapsible">Credly</button>
